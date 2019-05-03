@@ -6,7 +6,7 @@
 <suite name="softwaretestingmaterial">
     <test name="testngTest">
         <classes>
-            <class name="tests.GasService"/>
+            <class name="tests.ElectricityService"/>
         </classes>
     </test>
 </suite>
