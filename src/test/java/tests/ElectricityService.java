@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class ElectricityService extends BaseService {
     @Test
     public void addCounterValues_Topol(){
-        String counterValue = getProp().getProperty("electrValue.Topol");
+        String counterValue = getProp().getProperty("electricity.Topol");
         Selenide
                 .open(ElectricityServiceContext.getUrl(), ElectricityServiceContext.class)
                 .setUserName("tarasb855")
@@ -22,7 +22,7 @@ public class ElectricityService extends BaseService {
     }
     @Test
     public void addCounterValues_Panikahi(){
-        String counterValue = getProp().getProperty("electrValue.Panikahi");
+        String counterValue = getProp().getProperty("electricity.Panikahi");
 
         Selenide
                 .open(ElectricityServiceContext.getUrl(), ElectricityServiceContext.class)
